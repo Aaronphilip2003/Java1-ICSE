@@ -1,4 +1,4 @@
-import java.io.*;
+import java.io.*; // importing package
 class Bubble_sort
 {
     public static void main(String args[])throws IOException
@@ -8,7 +8,7 @@ class Bubble_sort
         int a[]=new int[10];
         for(int i=0;i<10;i++)
         {
-            a[i]=Integer.parseInt(br.readLine());
+            a[i]=Integer.parseInt(br.readLine()); // taking in the inputs and putting them in an array
         }
         for(int i=0;i<10;i++)
         {
@@ -26,6 +26,6 @@ class Bubble_sort
         for(int k=0;k<10;k++)
         System.out.println(a[k]);
     }
-}
+} // program over
                     
             
