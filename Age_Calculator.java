@@ -7,7 +7,7 @@ class Age_Calculator
         System.out.println("Enter the year of your birth");
         int year=Integer.parseInt(br.readLine());
         System.out.println("Enter the current year");
-        int Cyear=Integer.parseInt(br.readLine());
+        int Cyear=Integer.parseInt(br.readLine()); // input
         System.out.println("Enter the month of your birth");
         int month=Integer.parseInt(br.readLine());
         System.out.println("Enter the Current month");
